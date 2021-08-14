@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithms.DynamicProgramming
+namespace Algorithms
 {
     public static class MaxSumArray
     {

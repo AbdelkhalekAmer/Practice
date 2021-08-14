@@ -1,11 +1,11 @@
-﻿using Algorithms.DynamicProgramming;
+﻿using Algorithms;
 
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Engines;
 
 using System;
 
-namespace Main.AlgorithmsBenchmarks.DynamicProgramming
+namespace Main.AlgorithmsBenchmarks
 {
     [SimpleJob(RunStrategy.Throughput,
         launchCount: 10,
